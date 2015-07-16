@@ -4,8 +4,8 @@
 <meta charset="UTF-8">
 <title></title>
 <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0"/>
-<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css"/>
-<script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-1.0.0-b1/leaflet.css" />
+<script src="http://cdn.leafletjs.com/leaflet-1.0.0-b1/leaflet.js"></script>
 <script src="http://handygeospatial.github.io/mapsites/js/leaflet-hash.js"></script>
 <script src="http://handygeospatial.github.io/mapsites/js/TileLayer.GeoJSON.js"></script>
 <script src="http://handygeospatial.github.io/mapsites/js/corslite.js"></script>
@@ -20,8 +20,8 @@ html, body, #mapdiv {height: 100%; width: 100%;}
 <script>
 var std = L.tileLayer(
   'http://cyberjapandata.gsi.go.jp/xyz/std/{z}/{x}/{y}.png', {
-    attribution: "地理院タイル（標準地図）" 
-  }); 
+    attribution: "地理院タイル（標準地図）"
+  });
 
 var map = L.map('mapdiv', {
   center: [35.3622222, 138.7313889], zoom: 5,
